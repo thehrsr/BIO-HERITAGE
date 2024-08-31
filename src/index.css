@@ -1,0 +1,68 @@
+.leaflet-container{
+  height: 50%;
+  width: 100%;
+}
+ 
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin: 0 auto;
+}
+ 
+.form-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+ 
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+ 
+.form-container .form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+ 
+.form-container .form-group label {
+  margin-right: 10px;
+  color: #666;
+  font-weight: bold;
+}
+ 
+.form-container .form-group input[type="text"],
+.form-container .form-group input[type="file"] {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  flex: 1;
+}
+ 
+.form-container .form-group input[type="text"]:focus,
+.form-container .form-group input[type="file"]:focus {
+  outline: none;
+  border-color: #66afe9;
+}
+ 
+.form-container button[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #337ab7;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+ 
+.form-container button[type="submit"]:hover {
+  background-color: #286090;
+}
+

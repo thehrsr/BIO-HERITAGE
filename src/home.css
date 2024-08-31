@@ -1,0 +1,31 @@
+.bghome1{
+    background-image: url('background.png');
+    width: 100%;
+    height: 900px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+    }
+    .butu{
+      background-color: #FFBA00;
+      font-size: 30px;
+      border-radius: 20px;
+      font-weight: bolder;
+      margin-left: -1600px;
+      width: 200px;
+      height: 50px;
+      margin-top: 250px;
+    }
+
+    .butu:hover{
+        background-color: #FFFFFF;
+    }
